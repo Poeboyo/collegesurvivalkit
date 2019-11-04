@@ -14,51 +14,126 @@
     <div class="navbar navbar-fluid bg-danger rounded-bottom display-2">
         <div class="container">
             <h1 class="display-5 font-weight-bold font-italic text-white text-center">College Survival Kit</h1>
-            <p class="lead font-italic text-white text-center">Life's a Circus and I'm the Clown --Jontron,
+            <!-- <p class="lead font-italic text-white text-center">Life's a Circus and I'm the Clown --Jontron,
                 June 25,
                 2016, 0:22
-            </p>
+            </p> -->
+            <blockquote class="blockquote mb-0 text-white">
+                <p>Life's a Circus and I'm the Clown
+                </p>
+                <footer class="blockquote-footer text-body"><cite title="Source Title">How to Play Smite -
+                        JonTron (HD) June 25,
+                        2016, (0:22)
+                    </cite></footer>
+            </blockquote>
 
         </div>
     </div>
     <div class="container">
         <div class="card-group mt-5 mr-auto ml-auto">
             <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title text-danger">For your Health</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
+                <div class="card-body align-text-bottom">
+                    <h5 class="card-title text-danger">For your Anxiety</h5>
+                    <img id="shiba-pic" class="mx-auto d-block mb-3">
+                    <button type="button" id="shiba" class="btn btn-danger btn-lg mx-auto d-block">~Click For Stress
+                        Releif~</button>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title text-danger">For your Bank Account</h5>
-                    <div class="gcse-search"></div>
-
-                    <p class="card-text text-center">Input Grocery Items Above to Price Check various shops: Walmart,
+                    <p class="card-text text-center">Input Shopping Items Above to Price Check various shops: Walmart,
                         Bravo, Aldi's,
                         etc...</p>
                     <p class="card-text text-center">Also use the resources below to further low living costs.</p>
-
-
+                    <div class="gcse-search"></div>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-danger">For your Sanity</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show that equal height
-                        action.</p>
+                    <h5 class="card-title text-danger">For your Memory</h5>
+                    <p class="card-text"><span id="todo-item">To Do List <input id="to-do" type="text"><input
+                                id="add-to-do" value="Add Item" type="submit"
+                                class="btn btn-danger btn-sm mx-auto d-block mt-2"></span>
+                        </form>
+
+                        <hr>
+
+                        <div id="to-dos"></div>
                 </div>
             </div>
         </div>
+        <div class="card mt-4 mb-4">
+            <div class="card-body">
+                <h5 class="card-title text-danger text-center">For Your Entertainment</h5>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <a id="animeHref-1" target="_blank"><img id="anime-1"></a>
+                        </div>
+                        <div class="col-sm">
+                            <a id="animeHref-2" target="_blank"><img id="anime-2"></a>
+                        </div>
+                        <div class="col-sm">
+                            <a id="animeHref-3" target="_blank"><img id="anime-3"></a>
+                        </div>
+                        <div class="col-sm">
+                            <a id="animeHref-4" target="_blank"><img id="anime-4"></a>
+                        </div>
+                    </div>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label for="animeSearch">Search Anime Series</label>
+                        <input type="text" class="form-control" id="animeSearch" aria-describedby="AnimeListing"
+                            placeholder="Enter Anime Title">
+                        <button type="button" id="anime" class="btn btn-danger btn-lg mx-auto d-block mt-4 mb-4">Submit
+                            Search</button>
 
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+
+        <div class="card mt-4 mb-4">
+            <h5 class="card-title text-danger text-center">For Your Browser </h5>
+
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <a href="https://www.joinhoney.com/" target="_blank"><img
+                                    src="https://www.joinhoney.com/favicon.ico" class="w-25 h-50"></a>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://www.amazon.com/amazonprime?_encoding=UTF8&_bncoding=UTF8&hvadid=207975816168&hvdev=c&hvdvcmdl=&hvexid=&hvlocint=&hvlocphy=9011806&hvnetw=g&hvpone=&hvpos=1t1&hvptwo=&hvqmt=b&hvrand=13806090507311206987&hvtargid=aud-646675774026%3Akwd-646908048422&planOptimizationId=WLPStudentMonthlyEligiblePlans&primeCampaignId=studentWlpPrimeRedir&primeCampaignIdPref=studentWlpPrimeRedir&ref=pd_sl_6e5rr9bsw_b&ref_=st_wlp_pr_redir&tag=googhydr-20"
+                                target="_blank"><img src="https://www.amazon.com/favicon.ico" class="w-25 h-50"></a>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://wikibuy.com/instant?utm_source=Dolphin&utm_campaign=control&utm_source=Meerkat&utm_campaign=47564403482&utm_term=218211338075&gclid=Cj0KCQjw9fntBRCGARIsAGjFq5EIfd75FI7D9--VcGhl3iwvr_7fKP2dwyEJyM3IGcc_sAqSDrhP5pYaAhi3EALw_wcB"
+                                target="_blank"><img src="https://www.wikibuy.com/favicon.ico" class="w-25 h-50"></a>
+                        </div>
+                        <div class="col-sm">
+                            <a href="https://isthereanydeal.com/" target="_blank"><img
+                                    src="https://pbs.twimg.com/profile_images/1169691692892655619/TbXBDxfj_200x200.jpg"
+                                    class="w-25 h-50"></a>
+                        </div>
+                        <div class="col-sm">
+                            <a href="" target="_blank"><img></a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    </div>
+
     <!--Uses a Personal Google API search to find low price grocery items-->
     <script async src="https://cse.google.com/cse.js?cx=012193589028191085901:mpcckkslrom"></script>
-    <script src="assets/javascript/walmart.js"></script>
-    <script src="assets/javascript/jooble.js"></script>
-    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/cats.js"></script>
+    <script src="assets/javascript/anime.js"></script>
+    <script src="assets/javascript/list.js"></script>
 
 </body>
 
