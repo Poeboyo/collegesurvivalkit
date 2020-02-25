@@ -1,6 +1,7 @@
 # College Survival Kit
 
 This is the Number One Money Saver, Time Waster for the Average College Student
+https://poeboyo.github.io/collegesurvivalkit/
 
 ## How it's made
 
